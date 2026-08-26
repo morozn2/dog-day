@@ -6,7 +6,7 @@ export function Header() {
             <div className='header-body'>
                 <div className='header-left-side'>
                     <div className='logo-wrap'>
-                        <img src="/public/icons/paw.svg" alt="Paw print" className='logo' />
+                        <img src="/icons/paw.svg" alt="Paw print" className='logo' />
                     </div>
                     <hr className='header-hr'/>
                     <nav>
