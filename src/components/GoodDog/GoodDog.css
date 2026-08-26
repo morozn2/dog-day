@@ -1,0 +1,44 @@
+.good-dog-body {
+    width: 100vw;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+.top-p {
+    font-size: 40px;
+    position: absolute;
+    top: 12%;
+}
+
+.nose-pic {
+    width: 50%;
+    height: 400px;
+    background-image: url('/public/bg/nose.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 10px rgb(22, 22, 22) inset;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-p-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    position: absolute;
+    bottom: 28%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+}
