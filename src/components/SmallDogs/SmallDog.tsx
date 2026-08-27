@@ -36,43 +36,43 @@ export function SmallDog() {
             <p className='small-dogs-heading'>From small ones...</p>
             <div className='track'>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/chihuahua.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/chihuahua.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Chihuahuas</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/pug.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/pug.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Pugs</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/havanese.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/havanese.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Havanese</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/yorkie.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/yorkie.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Yorkies</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/toy-poodle.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/toy-poodle.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Toy poodles</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/shin-tzu.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/shin-tzu.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Shin-tzus</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/dachshund.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/dachshund.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Dachshunds</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/griffon.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/griffon.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Griffons</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/pomeranian.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/pomeranian.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Pomeranians</p>
                 </div>
                 <div className='dog-card'>
-                    <img src="/public/small-dogs/jack-russell.jpg" alt="" className='dog-img' />
+                    <img src="./small-dogs/jack-russell.jpg" alt="" className='dog-img' />
                     <p className='breed-name'>Jack Russels</p>
                 </div>
             </div>
