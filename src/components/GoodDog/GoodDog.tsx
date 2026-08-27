@@ -5,11 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export function GoodDog() {
 
-    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
-    
     gsap.registerPlugin(useGSAP);
 
     useGSAP(() => {
+
         gsap.registerPlugin(ScrollTrigger);
 
         gsap.from(".top-p", {
@@ -26,11 +25,11 @@ export function GoodDog() {
         gsap.from(".nose-pic", {
             scale: 0,
             opacity: 0,
-            ease: "power1.inOut",
+            ease: "power1.out",
             scrollTrigger: {
                 trigger: ".good-dog-body",
-                start: "top 80%",
-                end: "top 40%",
+                start: "top 70%",
+                end: "top 15%",
                 scrub: true
             }
         });
@@ -40,8 +39,8 @@ export function GoodDog() {
             y: 60,
             scrollTrigger: {
                 trigger: ".good-dog-body",
-                start: "top 20%",
-                end: "top 3%",
+                start: "top 12%",
+                end: "top 0%",
                 scrub: true,
                 markers: true
             }

@@ -1,0 +1,64 @@
+.small-breeds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(rgb(210, 210, 210), rgb(65, 65, 65));
+    overflow-x: hidden;
+    position: relative;
+}
+
+.small-dogs-heading {
+    position: absolute;
+    top: 12%;
+    font-size: 40px;
+}
+
+.track {
+    display: flex;
+    gap: 20px;
+}
+
+.dog-card {
+    background-color: white;
+    min-width: 250px;
+    min-height: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    box-shadow: 8px 8px 5px 0px rgba(41, 41, 41, 0.179);
+    position: relative;
+    cursor: pointer;
+}
+
+.dog-img {
+    border-radius: 15px;
+}
+
+.breed-name {
+    padding: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    bottom: 40%;
+    visibility: hidden;
+    text-shadow: 1px 1px 2px turquoise;
+}
+
+.dog-card:hover {
+    background-color: rgb(70, 70, 110);
+
+    .dog-img {
+        visibility: hidden;
+    }
+
+    .breed-name {
+        visibility: visible;
+    }
+}
