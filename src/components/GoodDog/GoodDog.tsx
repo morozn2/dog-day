@@ -3,9 +3,9 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-export function GoodDog() {
+gsap.registerPlugin(useGSAP);
 
-    gsap.registerPlugin(useGSAP);
+export function GoodDog() {
 
     useGSAP(() => {
 
@@ -42,7 +42,6 @@ export function GoodDog() {
                 start: "top 12%",
                 end: "top 0%",
                 scrub: true,
-                markers: true
             }
         })
     });

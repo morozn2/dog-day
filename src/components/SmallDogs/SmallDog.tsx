@@ -10,7 +10,7 @@ export function SmallDog() {
     useGSAP(() => {
 
         const track = document.querySelector<HTMLElement>(".track");
-        
+
         if (!track) return;
 
         const getScrollAmount = () => {
