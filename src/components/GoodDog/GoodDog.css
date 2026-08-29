@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: rgb(22, 22, 22);
-    color: white;
+    background-color:#311E0F;
+    color: #F4E4C9;
 }
 
 .top-p {
@@ -23,7 +23,7 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    box-shadow: 0 0 10px 10px rgb(22, 22, 22) inset;
+    box-shadow: 0 0 10px 10px #311E0F inset;
     display: flex;
     position: relative;
     align-items: center;
@@ -39,6 +39,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 50px;
-    color: black;
+    color: #311E0F;
+    text-shadow: 3px 3px 2px #838562;
     font-weight: 600;
 }

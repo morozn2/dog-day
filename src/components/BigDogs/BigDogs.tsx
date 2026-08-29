@@ -15,8 +15,8 @@ export function BigDogs() {
             trigger: ".big-dogs-heading",
             pin: true,
             start: "top 50%",
-            end: `+=${section?.scrollHeight}`,
-            scrub: true
+            end: `+=500`,
+            scrub: true,
         });
 
         gsap.from(images, {
@@ -30,10 +30,10 @@ export function BigDogs() {
             },
             scrollTrigger: {
                 trigger: section,
-                start: "top 60%",
+                start: "top -10%",
                 end: `+=${section?.scrollHeight}`,
                 scrub: true,
-                markers: true,
+                markers: true
             }
         })
 
@@ -43,14 +43,14 @@ export function BigDogs() {
         <section className='big-dogs'>
             <p className='big-dogs-heading'>...To large</p>
             <div className='big-dogs-wrap'>
-                <img src="./big-dogs/mastiff.png" alt="" className='big-dog-img' />
-                <img src="./big-dogs/komondor.png" alt="" className='big-dog-img' />
-                <img src="./big-dogs/afganian-hound.png" alt="" className='big-dog-img' />
-                <img src="./big-dogs/scottish-shepherd.png" alt="" className='big-dog-img' />
-                <img src="./big-dogs/akita.png" alt="" className='big-dog-img' />
-                <img src="./big-dogs/borzoi.png" alt="" className='big-dog-img' />
-                <img src="./big-dogs/newfoundland.png" alt="" className='big-dog-img' />
-                <img src="./big-dogs/cane-corso.png" alt="" className='big-dog-img' />
+                <img src="./big-dogs/mastiff.jpg" alt="" className='big-dog-img mastiff' />
+                <img src="./big-dogs/komondor.jpg" alt="" className='big-dog-img komondor' />
+                <img src="./big-dogs/afgan-hound.jpg" alt="" className='big-dog-img afgan' />
+                <img src="./big-dogs/kolli.jpg" alt="" className='big-dog-img kolli' />
+                <img src="./big-dogs/akita.jpg" alt="" className='big-dog-img akita' />
+                <img src="./big-dogs/borzoi.jpg" alt="" className='big-dog-img borzoi' />
+                <img src="./big-dogs/newfoundland.jpg" alt="" className='big-dog-img newfoundland' />
+                <img src="./big-dogs/cane-corso.jpg" alt="" className='big-dog-img cane-corso' />
             </div>
         </section>
     )

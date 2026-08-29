@@ -5,7 +5,8 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: radial-gradient(rgb(210, 210, 210), rgb(65, 65, 65));
+    background-color: #F4E4C9;
+    color: #311E0F;
     overflow-x: hidden;
     position: relative;
 }
@@ -35,7 +36,6 @@
     align-items: center;
     box-shadow: 8px 8px 5px 0px rgba(41, 41, 41, 0.179);
     position: relative;
-    cursor: pointer;
 }
 
 .dog-img {
@@ -45,15 +45,15 @@
 .breed-name {
     padding: 15px;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 26px;
     position: absolute;
     bottom: 40%;
     visibility: hidden;
-    text-shadow: 1px 1px 2px turquoise;
+    text-shadow: 1px 1px 2px #525032;
 }
 
 .dog-card:hover {
-    background-color: rgb(70, 70, 110);
+    background-color: #838562;
 
     .dog-img {
         visibility: hidden;
