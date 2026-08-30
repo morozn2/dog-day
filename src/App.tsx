@@ -5,6 +5,7 @@ import { GoodDog } from './components/GoodDog/GoodDog'
 import { SmallDog } from './components/SmallDogs/SmallDog'
 import { BigDogs } from './components/BigDogs/BigDogs'
 import { ReactLenis } from 'lenis/react'
+import { FlyingPups } from './components/FlyingPups/FlyingPups'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <GoodDog />
       <SmallDog />
       <BigDogs />
+      <FlyingPups />
     </ReactLenis>
   )
 }

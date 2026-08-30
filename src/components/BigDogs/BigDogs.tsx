@@ -11,29 +11,40 @@ export function BigDogs() {
         const section = document.querySelector<HTMLElement>(".big-dogs");
         const images = document.querySelectorAll<HTMLElement>(".big-dog-img");
 
-        ScrollTrigger.create({
-            trigger: ".big-dogs-heading",
-            pin: true,
-            start: "top 50%",
-            end: `+=500`,
-            scrub: true,
-        });
+        gsap.to(".big-dogs-heading", {
+            scale: 2.5,
+            ease: "none",
+            scrollTrigger: {
+                trigger: ".big-dogs-heading",
+                pin: true,
+                start: "top 50%",
+                end: `+=500`,
+                scrub: true
+            }
+        })
+
+        // ScrollTrigger.create({
+        //     trigger: ".big-dogs-heading",
+        //     pin: true,
+        //     start: "top 50%",
+        //     end: `+=500`,
+        //     scrub: true
+        // });
 
         gsap.from(images, {
             y: 80,
-            duration: 2.5,
+            duration: 3.7,
             ease: "power2.out",
             opacity: 0,
             stagger: {
-                each: 0.7,
+                each: 0.8,
                 from: "start",
             },
             scrollTrigger: {
                 trigger: section,
-                start: "top -10%",
-                end: `+=${section?.scrollHeight}`,
-                scrub: true,
-                markers: true
+                start: "top top",
+                end: `+=${section?.scrollHeight}-=100`,
+                scrub: true
             }
         })
 

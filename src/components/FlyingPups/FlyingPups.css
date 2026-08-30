@@ -1,0 +1,55 @@
+.flying-pups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 800px;
+    background-image: linear-gradient(to bottom, #23150b, #322c10, #525032);
+    position: relative;
+    overflow: hidden;
+}
+
+.chihuahua {
+    width: 50%;
+}
+
+.pup-and-bone {
+    position: absolute;
+    top: 20px;
+    right: -23%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 23%;
+    transform: rotate(-25deg);
+}
+
+.big-pup-and-bone {
+    position: absolute;
+    top: 220px;
+    left: -29%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    transform: rotate(15deg);
+    gap: 100px;
+}
+
+.big-dog {
+    transform: scaleX(-1);
+    width: 75%;
+}
+
+.bone-small {
+    width: 20%;
+    transform: rotate(60deg);
+}
+
+.bone-big {
+    width: 15%;
+    transform: rotate(-50deg) translateY(-30px);
+}

@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color:#311E0F;
+    background-color:#23150b;
     color: #F4E4C9;
 }
 
@@ -23,7 +23,7 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    box-shadow: 0 0 10px 10px #311E0F inset;
+    box-shadow: 0 0 10px 10px #23150b inset;
     display: flex;
     position: relative;
     align-items: center;
@@ -39,7 +39,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 50px;
-    color: #311E0F;
+    color: #23150b;
     text-shadow: 3px 3px 2px #838562;
     font-weight: 600;
 }
