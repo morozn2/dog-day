@@ -1,7 +1,6 @@
 import './DogHistory.css'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { useEffect } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
