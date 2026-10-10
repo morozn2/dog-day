@@ -15,7 +15,7 @@ export function FlyingPups() {
             scrollTrigger: {
                 trigger: ".flying-pups",
                 start: "top 70%",
-                end: "+=800",
+                end: "+=650",
                 scrub: true
             }
         });
@@ -27,7 +27,7 @@ export function FlyingPups() {
             scrollTrigger: {
                 trigger: ".flying-pups",
                 start: "top 30%",
-                end: "+=800",
+                end: "+=650",
                 scrub: true
             }
         });
@@ -36,12 +36,12 @@ export function FlyingPups() {
     return (
         <section className='flying-pups'>
             <div className='pup-and-bone'>
-                <img src="./icons/bone.png" alt="" className='bone-small' />
+                <img src="./misc/bone.png" alt="" className='bone-small' />
                 <img src="./small-dogs/flying-chihuahua.png" alt="" className='chihuahua' />
             </div>
             <div className='big-pup-and-bone'>
                 <img src="./big-dogs/flying-big-dog.png" alt="" className='big-dog' />
-                <img src="./icons/bone.png" alt="" className='bone-big' />
+                <img src="./misc/bone.png" alt="" className='bone-big' />
             </div>
         </section>
     )

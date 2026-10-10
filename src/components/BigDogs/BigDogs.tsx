@@ -23,14 +23,6 @@ export function BigDogs() {
             }
         })
 
-        // ScrollTrigger.create({
-        //     trigger: ".big-dogs-heading",
-        //     pin: true,
-        //     start: "top 50%",
-        //     end: `+=500`,
-        //     scrub: true
-        // });
-
         gsap.from(images, {
             y: 80,
             duration: 3.7,

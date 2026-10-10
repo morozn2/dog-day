@@ -6,6 +6,8 @@ import { SmallDog } from './components/SmallDogs/SmallDog'
 import { BigDogs } from './components/BigDogs/BigDogs'
 import { ReactLenis } from 'lenis/react'
 import { FlyingPups } from './components/FlyingPups/FlyingPups'
+import { DogHistory } from './components/DogHistory/DogHistory'
+import { Facts } from './components/Facts/Facts'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
       <SmallDog />
       <BigDogs />
       <FlyingPups />
+      <DogHistory />
+      <Facts />
     </ReactLenis>
   )
 }
