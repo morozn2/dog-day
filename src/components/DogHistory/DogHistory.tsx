@@ -17,8 +17,7 @@ export function DogHistory() {
             start: "top 20%",
             end: '+=1300',
             scrub: true,
-            pin: true,
-            markers: true
+            pin: true
         });
     });
 
