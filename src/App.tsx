@@ -8,6 +8,7 @@ import { ReactLenis } from 'lenis/react'
 import { FlyingPups } from './components/FlyingPups/FlyingPups'
 import { DogHistory } from './components/DogHistory/DogHistory'
 import { Facts } from './components/Facts/Facts'
+import { DogGod } from './components/DogGod/DogGod'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <FlyingPups />
       <DogHistory />
       <Facts />
+      <DogGod />
     </ReactLenis>
   )
 }
