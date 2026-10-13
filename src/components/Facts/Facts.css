@@ -82,14 +82,14 @@
 }
 
 #shepherd-box {
-    background-image: url("./public/dogs-pngs/german-shepherd.png");
+    background-image: url("/dogs-pngs/german-shepherd.png");
     background-position: bottom;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 #shepherd-box:hover {
-    background-image: url("./public/dogs-pngs/shepherd-silhouette.png");
+    background-image: url("/dogs-pngs/shepherd-silhouette.png");
 
     .dog-fact {
         visibility: visible;
@@ -97,14 +97,14 @@
 }
 
 #poodle-box {
-    background-image: url("./public/dogs-pngs/poodle.png");
+    background-image: url("/dogs-pngs/poodle.png");
     background-position: bottom;
     background-size: 80%;
     background-repeat: no-repeat;
 }
 
 #poodle-box:hover {
-    background-image: url("./public/dogs-pngs/poodle-silhouette.png");
+    background-image: url("/dogs-pngs/poodle-silhouette.png");
 
     .dog-fact {
         visibility: visible;
@@ -112,14 +112,14 @@
 }
 
 #labrador-box {
-    background-image: url("./public/dogs-pngs/lab.png");
+    background-image: url("/dogs-pngs/lab.png");
     background-position: bottom;
     background-size: 90%;
     background-repeat: no-repeat;
 }
 
 #labrador-box:hover {
-    background-image: url("./public/dogs-pngs/lab-silhouette.png");
+    background-image: url("/dogs-pngs/lab-silhouette.png");
 
     .dog-fact {
         visibility: visible;
@@ -127,14 +127,14 @@
 }
 
 #bulldog-box {
-    background-image: url("./public/dogs-pngs/bulldog.png");
+    background-image: url("/dogs-pngs/bulldog.png");
     background-position: bottom;
     background-size: 90%;
     background-repeat: no-repeat;
 }
 
 #bulldog-box:hover {
-    background-image: url("./public/dogs-pngs/bulldog-silhouette.png");
+    background-image: url("/dogs-pngs/bulldog-silhouette.png");
 
     .dog-fact {
         visibility: visible;
@@ -142,14 +142,14 @@
 }
 
 #dachshund-box {
-    background-image: url("./public/dogs-pngs/dachshund.png");
+    background-image: url("/dogs-pngs/dachshund.png");
     background-position: bottom;
     background-size: 75%;
     background-repeat: no-repeat;
 }
 
 #dachshund-box:hover {
-    background-image: url("./public/dogs-pngs/dachshund-silhouette.png");
+    background-image: url("/dogs-pngs/dachshund-silhouette.png");
 
     .dog-fact {
         visibility: visible;

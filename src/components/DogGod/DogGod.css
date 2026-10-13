@@ -18,7 +18,7 @@
 }
 
 .god-image {
-    background-image: url("./public/small-dogs/dog-god.jpg");
+    background-image: url("/small-dogs/dog-god.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;

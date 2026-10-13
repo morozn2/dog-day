@@ -17,8 +17,7 @@ export function DogGod() {
                 trigger: ".dog-god",
                 start: "top 80%",
                 end: "top 30%",
-                scrub: true,
-                markers: true
+                scrub: true
             }
         });
     });
